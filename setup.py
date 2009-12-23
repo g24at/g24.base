@@ -29,6 +29,8 @@ setup(name='thet.grak.base',
       install_requires=[
           'setuptools',
           # -*- Extra requirements: -*-
+          'collective.dancing',
+          'z3c.unconfigure',
       ],
       entry_points="""
       # -*- Entry points: -*-

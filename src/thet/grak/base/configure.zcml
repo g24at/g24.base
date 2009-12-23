@@ -3,5 +3,7 @@
     xmlns:five="http://namespaces.zope.org/five"
     i18n_domain="thet.grak.base">
 
+    <include package="collective.dancing" />
+    <includeOverrides file="overrides.zcml" />
 
 </configure>
