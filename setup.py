@@ -31,6 +31,9 @@ setup(name='thet.grak.base',
           # -*- Extra requirements: -*-
           'collective.dancing',
           'z3c.unconfigure',
+          'Products.pipbox',
+          # 'collective.plonetruegallery[all]',
+          # 'p4a.plonecalendar',
       ],
       entry_points="""
       # -*- Entry points: -*-
