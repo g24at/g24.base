@@ -15,7 +15,7 @@
   <!-- To debug and test and not sending out mails for real
        Mails are beeing logged to
        TEMPDIR/collective.dancing.StubSMTPMailer.log -->
-  <utility
+  <!-- utility
     name="plone.smtp"
     factory="collective.dancing.composer.StubSMTPMailer" />
 
@@ -31,6 +31,6 @@
     name=""
     queuePath="mailqueue"
     mailer="plone.smtp"
-    permission="zope.SendMail" />
+    permission="zope.SendMail" /-->
 
 </configure>
