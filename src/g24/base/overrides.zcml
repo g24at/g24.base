@@ -1,0 +1,36 @@
+<configure
+  xmlns="http://namespaces.zope.org/zope"
+  xmlns:mail="http://namespaces.zope.org/mail">
+
+  <!-- To use for sending mails for real
+  <utility
+    name="plone.smtp"
+    factory="collective.dancing.composer.SMTPMailer" />
+   -->
+
+  <!-- direct mail config, not taken from plone:
+  <mail:smtpMailer name="smtp" hostname="localhost" port="25" />
+  -->
+
+  <!-- To debug and test and not sending out mails for real
+       Mails are beeing logged to
+       TEMPDIR/collective.dancing.StubSMTPMailer.log -->
+  <!-- utility
+    name="plone.smtp"
+    factory="collective.dancing.composer.StubSMTPMailer" />
+
+  <include package="z3c.unconfigure" file="meta.zcml" />
+  <unconfigure>
+    <mail:directDelivery
+      name=""
+      mailer="plone.smtp"
+      permission="zope.Public" />
+  </unconfigure>
+
+  <mail:queuedDelivery
+    name=""
+    queuePath="mailqueue"
+    mailer="plone.smtp"
+    permission="zope.SendMail" /-->
+
+</configure>

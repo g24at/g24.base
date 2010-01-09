@@ -6,9 +6,9 @@ import os
 
 version = '1.0'
 
-setup(name='thet.grak.base',
+setup(name='g24.base',
       version=version,
-      description="plone integration package for gruene akademie graz website",
+      description="plone integration package for g24.at",
       long_description=open("README.txt").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       # Get more strings from http://pypi.python.org/pypi?:action=list_classifiers
@@ -19,19 +19,19 @@ setup(name='thet.grak.base',
       keywords='plone',
       author='Johannes Raggam',
       author_email='johannes@raggam.co.at',
-      url='http://github.com/thet/thet.grak.base',
+      url='http://github.com/thet/g24.base',
       license='GPL',
       packages = find_packages('src'),
       package_dir = {'': 'src'},
-      namespace_packages=['thet', 'thet.grak'],
+      namespace_packages=['g24'],
       include_package_data=True,
       zip_safe=False,
       install_requires=[
           'setuptools',
           # -*- Extra requirements: -*-
-          'collective.dancing',
-          'z3c.unconfigure',
-          'collective.portlet.flickr',
+          # 'collective.dancing',
+          # 'z3c.unconfigure',
+          # 'collective.portlet.flickr',
           # 'Products.slideshowfolder',
           # 'collective.gallery',
           # 'Products.pipbox',
