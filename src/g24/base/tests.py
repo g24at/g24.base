@@ -10,7 +10,7 @@ from Products.PloneTestCase import PloneTestCase as ptc
 from Products.PloneTestCase.layer import PloneSite
 ptc.setupPloneSite()
 
-import thet.grak.base
+import g24.base
 
 class TestCase(ptc.PloneTestCase):
     class layer(PloneSite):
@@ -18,7 +18,7 @@ class TestCase(ptc.PloneTestCase):
         def setUp(cls):
             fiveconfigure.debug_mode = True
             zcml.load_config('configure.zcml',
-                             thet.grak.base)
+                             g24.base)
             fiveconfigure.debug_mode = False
 
         @classmethod
@@ -31,21 +31,21 @@ def test_suite():
 
         # Unit tests
         #doctestunit.DocFileSuite(
-        #    'README.txt', package='thet.grak.base',
+        #    'README.txt', package='g24.base',
         #    setUp=testing.setUp, tearDown=testing.tearDown),
 
         #doctestunit.DocTestSuite(
-        #    module='thet.grak.base.mymodule',
+        #    module='g24.base.mymodule',
         #    setUp=testing.setUp, tearDown=testing.tearDown),
 
 
         # Integration tests that use PloneTestCase
         #ztc.ZopeDocFileSuite(
-        #    'README.txt', package='thet.grak.base',
+        #    'README.txt', package='g24.base',
         #    test_class=TestCase),
 
         #ztc.FunctionalDocFileSuite(
-        #    'browser.txt', package='thet.grak.base',
+        #    'browser.txt', package='g24.base',
         #    test_class=TestCase),
 
         ])
