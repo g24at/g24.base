@@ -3,16 +3,6 @@
     xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
     i18n_domain="g24.base">
 
-    <!-- include package="collective.dancing" /-->
-    <!--includeOverrides file="overrides.zcml" /-->
-
-    <!-- include package="collective.portlet.flickr" /-->
-    <!-- include package="Products.slideshowfolder" /-->
-    <!-- include package="collective.gallery" /-->
-    <!-- include package="Products.pipbox" /-->
-    <!-- include package="collective.plonetruegallery" /-->
-    <!-- include package="p4a.plonecalendar" / -->
-
     <genericsetup:registerProfile
         name="default"
         title="g24.base: default"

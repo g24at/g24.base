@@ -29,19 +29,5 @@ setup(name='g24.base',
       install_requires=[
           'setuptools',
           # -*- Extra requirements: -*-
-          # 'collective.dancing',
-          # 'z3c.unconfigure',
-          # 'collective.portlet.flickr',
-          # 'Products.slideshowfolder',
-          # 'collective.gallery',
-          # 'Products.pipbox',
-          # 'collective.plonetruegallery[all]',
-          # 'p4a.plonecalendar',
       ],
-      entry_points="""
-      # -*- Entry points: -*-
-
-      [z3c.autoinclude.plugin]
-      target = plone
-      """,
       )
