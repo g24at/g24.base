@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+  <property name="title">g24.at - community graz</property>
+  <property name="description"></property>
+  <property name="email_from_address" type="string">info@g24.at</property>
+  <property name="email_from_name" type="string">g24</property>
+</site>
