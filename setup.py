@@ -27,5 +27,7 @@ setup(name='g24.base',
           # -*- Extra requirements: -*-
           'Plone',
           'PILwoTk',
+          'plone.app.event[archetypes,dexterity]', # remove archetypes, once dx is ready
+          'Solgema.fullcalendar',
       ],
 )

@@ -3,12 +3,15 @@
     xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
     i18n_domain="g24.base">
 
-    <genericsetup:registerProfile
+  <include package="plone.app.event" />
+  <include package="Solgema.fullcalendar" />
+
+  <genericsetup:registerProfile
         name="default"
         title="g24.base: default"
         directory="profiles/default"
         description="g24 default profile: Installs core components of the website."
         provides="Products.GenericSetup.interfaces.EXTENSION"
-    />
+        />
 
 </configure>

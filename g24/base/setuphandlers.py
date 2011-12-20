@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 import collective.setuphandlertools as sht
-from plone.app.controlpanel.security import SecurityControlPanelAdapter
 import logging
 logger = logging.getLogger("g24.base")
 
