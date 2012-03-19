@@ -28,6 +28,5 @@ setup(name='g24.base',
           'Plone',
           'Pillow',
           'plone.app.event[dexterity]',
-          'Solgema.fullcalendar',
       ],
 )
