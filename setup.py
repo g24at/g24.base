@@ -27,7 +27,7 @@ setup(name='g24.base',
           # -*- Extra requirements: -*-
           'Plone',
           'Pillow',
-          'g24.basetype',
+          'g24.elements',
           'plone.app.event[dexterity]',
       ],
 )

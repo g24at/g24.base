@@ -4,5 +4,6 @@
   <dependencies>
     <dependency>profile-plone.app.caching:default</dependency>
     <dependency>profile-plone.app.event:default</dependency>
+    <dependency>profile-g24.elements:default</dependency>
   </dependencies>
 </metadata>

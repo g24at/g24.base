@@ -3,7 +3,8 @@
     xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
     i18n_domain="g24.base">
 
-  <include package="plone.app.event" />
+  <include package="plone.app.event"/>
+  <include package="g24.elements"/>
 
   <genericsetup:registerProfile
         name="default"
