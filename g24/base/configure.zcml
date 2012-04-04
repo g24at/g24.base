@@ -5,6 +5,7 @@
 
   <include package="plone.app.event"/>
   <include package="g24.elements"/>
+  <include package="g24.importer"/>
 
   <genericsetup:registerProfile
         name="default"

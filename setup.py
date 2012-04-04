@@ -29,5 +29,7 @@ setup(name='g24.base',
           'Pillow',
           'g24.elements',
           'plone.app.event[dexterity]',
+          'collective.embedly',
+          'g24.importer',
       ],
 )
