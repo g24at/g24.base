@@ -31,5 +31,7 @@ setup(name='g24.base',
           'g24.theme',
           'plone.app.event[dexterity]',
           'collective.embedly',
+          'jarn.xmpp.core',
+          'jarn.xmpp.collaboration',
       ],
 )

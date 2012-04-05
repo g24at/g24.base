@@ -4,6 +4,8 @@
   <dependencies>
     <dependency>profile-plone.app.caching:default</dependency>
     <dependency>profile-plone.app.event:default</dependency>
+    <dependency>profile-jarn.xmpp.core:default</dependency>
+    <dependency>profile-jarn.xmpp.collaboration:default</dependency>
     <dependency>profile-g24.elements:default</dependency>
     <dependency>profile-g24.theme:default</dependency>
   </dependencies>
