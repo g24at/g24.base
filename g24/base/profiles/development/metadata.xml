@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<metadata>
+  <version>1</version>
+  <dependencies>
+    <dependency>profile-plone.app.debugtoolbar:default</dependency>
+    <dependency>profile-g24.base:default</dependency>
+    <dependency>profile-g24.importer:setup_content</dependency>
+  </dependencies>
+</metadata>
