@@ -16,5 +16,19 @@
         description="g24 default profile: Installs core components of the website."
         provides="Products.GenericSetup.interfaces.EXTENSION"
         />
+  <genericsetup:registerProfile
+        name="development"
+        title="g24.base: development"
+        directory="profiles/development"
+        description="g24 development profile: Configures g24 for development (default, setup content, debugtoolbar)."
+        provides="Products.GenericSetup.interfaces.EXTENSION"
+        />
+  <genericsetup:registerProfile
+        name="alpha"
+        title="g24.base: alpha"
+        directory="profiles/alpha"
+        description="g24 alpha profile: Configures g24 for alpha release (default, setup content, import user)."
+        provides="Products.GenericSetup.interfaces.EXTENSION"
+        />
 
 </configure>

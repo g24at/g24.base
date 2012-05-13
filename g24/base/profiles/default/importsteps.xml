@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<import-steps>
-  <import-step
-    id="g24.base-setup_base"
-    handler="g24.base.setuphandlers.setup_base"
-    title="g24.base base setup"
-    version="1.0">
-  </import-step>
-</import-steps>
