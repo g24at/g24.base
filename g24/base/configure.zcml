@@ -3,6 +3,7 @@
     xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
     i18n_domain="g24.base">
 
+  <include package="plone.app.jquery"/>
   <include package="g24.elements"/>
   <include package="g24.theme"/>
   <include package="jarn.xmpp.core"/>
