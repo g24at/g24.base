@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<dc-workflow
+  workflow_id="simple_publication_workflow"
+  title="Simple Publication Workflow"
+  initial_state="published"
+  state_variable="review_state"
+  manager_bypass="False">
+</dc-workflow>
