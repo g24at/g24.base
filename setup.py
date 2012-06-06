@@ -32,5 +32,6 @@ setup(name='g24.base',
           'jarn.xmpp.core',
           'jarn.xmpp.collaboration',
           'plone.app.jquery>=1.7',
+          'plone.app.jquerytools',
       ],
 )

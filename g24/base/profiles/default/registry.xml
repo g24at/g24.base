@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<registry>
+  <record interface="Products.ResourceRegistries.interfaces.settings.IResourceRegistriesSettings"
+    field="resourceBundlesForThemes">
+
+    <value purge="false">
+      <!-- TODO BBB: These bundle assignments should go into each theme's package -->
+      <element key="Plone Classic Theme">
+        <element>jquery</element>
+        <element>jquerytools</element>
+        <element>xmpp</element>
+        <element>g24</element>
+        <element>default</element>
+      </element>
+
+      <element key="Plone Default">
+        <element>jquery</element>
+        <element>jquerytools</element>
+        <element>xmpp</element>
+        <element>g24</element>
+        <element>default</element>
+      </element>
+
+      <element key="Sunburst Theme">
+        <element>jquery</element>
+        <element>jquerytools</element>
+        <element>xmpp</element>
+        <element>g24</element>
+        <element>default</element>
+      </element>
+    </value>
+
+  </record>
+</registry>
