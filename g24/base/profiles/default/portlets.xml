@@ -21,15 +21,6 @@
       key="/"
       type="portlets.Navigation" />
 
-  <assignment name="calendar" category="context" key="/"
-      manager="plone.leftcolumn" type="portlets.Calendar" visible="True"/>
-  <assignment name="events" category="context" key="/"
-      manager="plone.leftcolumn" type="portlets.Events" visible="True">
-    <property name="count">5</property>
-    <property name="state">
-      <element>published</element>
-    </property>
-  </assignment>
   <assignment name="tag-cloud-portlet" category="context" key="/"
       manager="plone.leftcolumn" type="qi.portlet.TagClouds.TagCloudPortlet"
       visible="True">
@@ -44,5 +35,15 @@
     <property name="restrictTypes"/>
   </assignment>
 
-</portlets>
+  <assignment name="calendar" category="context" key="/"
+      manager="plone.leftcolumn" type="portlets.Calendar" visible="True"/>
 
+  <assignment name="events" category="context" key="/"
+      manager="plone.leftcolumn" type="portlets.Events" visible="True">
+    <property name="count">5</property>
+    <property name="state">
+      <element>published</element>
+    </property>
+  </assignment>
+
+</portlets>
