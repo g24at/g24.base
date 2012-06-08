@@ -8,6 +8,7 @@
   <include package="g24.theme"/>
   <include package="jarn.xmpp.core"/>
   <include package="jarn.xmpp.collaboration"/>
+  <include package="qi.portlet.TagClouds"/>
 
   <genericsetup:registerProfile
         name="default"

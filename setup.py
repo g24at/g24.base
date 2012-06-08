@@ -33,5 +33,6 @@ setup(name='g24.base',
           'jarn.xmpp.collaboration',
           'plone.app.jquery>=1.7',
           'plone.app.jquerytools',
+          'qi.portlet.TagClouds',
       ],
 )

@@ -4,5 +4,5 @@
   <stylesheet bundle="xmpp" id="++resource++gritter/jquery.gritter.css" />
   <stylesheet bundle="xmpp" id="++resource++jarn.xmpp.core.css/styles.css" />
   <stylesheet bundle="xmpp" id="++resource++jarn.xmpp.collaboration.css/collaborate.css" />
-
+  <stylesheet bundle="g24" id="++resource++qi.portlet.TagClouds.stylesheets/tagclouds.css" />
 </object> 
