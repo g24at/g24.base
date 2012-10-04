@@ -8,7 +8,7 @@
       <element key="Plone Classic Theme">
         <element>jquery</element>
         <element>jquerytools</element>
-        <element>xmpp</element>
+        <!-- element>xmpp</element-->
         <element>g24</element>
         <element>default</element>
       </element>
@@ -16,7 +16,7 @@
       <element key="Plone Default">
         <element>jquery</element>
         <element>jquerytools</element>
-        <element>xmpp</element>
+        <!-- element>xmpp</element-->
         <element>g24</element>
         <element>default</element>
       </element>
@@ -24,7 +24,7 @@
       <element key="Sunburst Theme">
         <element>jquery</element>
         <element>jquerytools</element>
-        <element>xmpp</element>
+        <!-- element>xmpp</element-->
         <element>g24</element>
         <element>default</element>
       </element>

@@ -6,8 +6,8 @@
   <include package="plone.app.jquery"/>
   <include package="g24.elements"/>
   <include package="g24.theme"/>
-  <include package="jarn.xmpp.core"/>
-  <include package="jarn.xmpp.collaboration"/>
+  <!-- include package="collective.xmpp.core"/>
+  <include package="collective.xmpp.chat"/-->
   <include package="qi.portlet.TagClouds"/>
 
   <genericsetup:registerProfile
