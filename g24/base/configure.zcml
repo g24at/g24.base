@@ -6,6 +6,7 @@
   <include package="plone.app.jquery"/>
   <include package="g24.elements"/>
   <include package="g24.theme"/>
+  <include package="g24.importer"/>
   <!-- include package="collective.xmpp.core"/>
   <include package="collective.xmpp.chat"/-->
   <include package="qi.portlet.TagClouds"/>
