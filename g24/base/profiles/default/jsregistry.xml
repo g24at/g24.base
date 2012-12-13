@@ -10,12 +10,12 @@
   <javascript bundle="jquerytools" id="++resource++plone.app.jquerytools.rangeinput.js" />
   <javascript bundle="jquerytools" id="++resource++plone.app.jquerytools.validator.js" />
 
-  <javascript bundle="xmpp" id="++resource++jsi18n.js" />
+  <!--javascript bundle="xmpp" id="++resource++jsi18n.js" />
   <javascript bundle="xmpp" id="++resource++gritter/jquery.gritter.min.js" />
 
   <javascript bundle="xmpp" id="++resource++jarn.xmpp.core.js/strophe.js" />
   <javascript bundle="xmpp" id="++resource++jarn.xmpp.core.js/jarnxmpp.core.handlers.js" />
-  <javascript bundle="xmpp" id="++resource++jarn.xmpp.core.js/jarnxmpp.core.ui.js" />
+  <javascript bundle="xmpp" id="++resource++jarn.xmpp.core.js/jarnxmpp.core.ui.js" /-->
 
   <!-- javascript bundle="xmpp" id="++resource++jarn.xmpp.collaboration.js/diff_match_patch.js" />
   <javascript bundle="xmpp" id="++resource++jarn.xmpp.collaboration.js/jarnxmpp.collaboration.protocol.js" />
