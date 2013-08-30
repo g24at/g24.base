@@ -13,4 +13,11 @@
     </value>
   </record>
 
+  <record
+      name="plone.app.event.portal_timezone"
+      interface="plone.app.event.interfaces.IEventSettings"
+      field="portal_timezone">
+    <value>Europe/Vienna</value>
+  </record>
+
 </registry>
