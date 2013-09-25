@@ -34,6 +34,7 @@ setup(name='g24.base',
           #'collective.xmpp.chat',
           'plone.app.jquery>=1.7',
           'plone.app.jquerytools',
+          'plone.app.toolbar',
           'qi.portlet.TagClouds',
       ],
 )

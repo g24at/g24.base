@@ -4,7 +4,7 @@
  <object name="user" meta_type="CMF Action Category" purge="True">
   <property name="title"></property>
 
-  <object name="xmpp-profile" meta_type="CMF Action"
+  <!--object name="xmpp-profile" meta_type="CMF Action"
      i18n:domain="jarn.xmpp.core">
    <property name="title" i18n:translate="">Following</property>
    <property name="description" i18n:translate=""></property>
@@ -16,7 +16,7 @@
     <element value="View"/>
    </property>
    <property name="visible">True</property>
-  </object>
+  </object-->
 
   <object name="profile-settings" meta_type="CMF Action" i18n:domain="plone">
    <property name="title" i18n:translate="">Profile Settings</property>

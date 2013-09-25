@@ -4,6 +4,7 @@
   <dependencies>
     <dependency>profile-plone.app.caching:default</dependency>
     <dependency>profile-plone.app.jquery:default</dependency>
+    <dependency>profile-plone.app.toolbar:default</dependency>
     <!-- dependency>profile-collective.xmpp.core:default</dependency>
     <dependency>profile-collective.xmpp.chat:default</dependency-->
     <!-- dependency>profile-jarn.xmpp.core:default</dependency -->
